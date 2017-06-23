@@ -1,37 +1,28 @@
-## Welcome to GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/rbcksdls/rbcksdls.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+# term-rbcksdls
+## Project Introduction
 
-### Markdown
+Path Search Game is an offline game for 2 players based on n * n board.
+Both players can make a path from own base to enemy base and reach their base before their opponent.
+A player can only move one space at a time, and he can not go back to where he is.
+After setting the path, the player changes the position and proceeds the game.
+In the event of a failure, the turn goes over and the player who first arrives at the base wins.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+language : C
 
-```markdown
-Syntax highlighted code block
+compile : use gcc command
+`
+gcc main.c -o main
+`
 
-# Header 1
-## Header 2
-### Header 3
+execution : use command
+`
+./main
+`
 
-- Bulleted
-- List
+## License
+none
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/rbcksdls/rbcksdls.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+## Link
+[link](https://github.com/rbcksdls/term-rbcksdls)
